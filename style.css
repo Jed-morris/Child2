@@ -1,0 +1,56 @@
+header {
+    background-image: url(Logo.png);
+    background-repeat:  no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding: 20px;    
+}
+
+nav a{
+    overflow: hidden;
+    background-color: royalblue;
+    padding: 14px 16px;
+}
+
+nav a {
+    float: right;
+    color: whitesmoke;
+    padding: 8px 10px;
+}
+
+nav a:hover{
+    background-color: aqua;
+    color: green;
+    padding: 5px;
+}
+
+
+
+section{
+    display: flex;
+}
+
+aside{
+    background-color: aliceblue;
+    padding: 20px;
+}
+nav b{
+    float: left;
+    padding: 10px 12px;
+}
+
+nav b:hover{
+    background-color: lightgreen;
+    color: blue;
+}
+
+footer{
+    background-color: royalblue;
+    padding: 8px;
+}
+
+    @media only screen and (max-width: 767px) {
+    [class*="col-"]{
+        width: 100%;
+    }
+   }
